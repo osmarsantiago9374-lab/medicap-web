@@ -1,0 +1,21 @@
+{
+  "id": "./index.html",
+  "name": "MEDICAP · Tu aliado inteligente",
+  "short_name": "MEDICAP",
+  "description": "Organiza tus medicamentos, recordatorios e inventario.",
+  "lang": "es-MX",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5faff",
+  "theme_color": "#0b74c8",
+  "icons": [
+    {
+      "src": "./medicap-app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

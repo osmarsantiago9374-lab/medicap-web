@@ -1,0 +1,11 @@
+MEDICAP - sitio web listo para publicar
+
+Contenido
+- index.html: aplicación MEDICAP
+- manifest.webmanifest y sw.js: instalación como PWA y uso offline básico
+- medicap-app-icon.svg: icono de la aplicación
+- imágenes PNG requeridas por la página
+
+Para publicarlo en GitHub Pages, sube todos los archivos de esta carpeta a la raíz de un repositorio público y activa Pages desde Settings > Pages, usando Deploy from a branch y la rama principal / raíz. El enlace final debe abrir index.html automáticamente.
+
+La función NFC escribe un enlace NDEF con el identificador del medicamento. Requiere HTTPS y un teléfono Android compatible con Chrome. Los datos de medicamentos se guardan localmente en el navegador; el NFC no sincroniza datos entre teléfonos.
